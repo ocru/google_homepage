@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>   
+<head>
+     <title>HomeMade Google Search Page</title>
+     <meta name="HomeMade Search Page" content="Google"> 
+     <style>
+         a{
+             text-decoration:none;
+             color:black;
+         }
+         #a{/*for bottom links*/
+             color:dimgray;
+         }
+         footer{
+             background-color:whitesmoke;
+             height:50px;
+             position: relative;
+         }
+         html{
+             height: 100%;
+         }
+         body{
+             min-height: 100%;
+         }
+         ul {
+            list-style-type: none;
+             margin-top:25px;
+            padding: 0;
+
+            }
+        .linkSpace{
+            margin-left: 14px;
+            margin-right: 5px;
+            
+        }
+        li{
+            display: inline;
+            font-size:12px;
+        }
+        #privacy-link{
+            margin-left:1400px;
+        }
+        #gmail_link{
+            margin-left:1525px;
+            
+        }
+
+         #image{
+             
+             display: block;
+             margin: auto;
+             margin-top: 140px;
+             margin-bottom: 20px;
+             
+         }
+         #search_bar{
+            display: block;
+             margin: auto; 
+             margin-bottom: 30px;
+             margin-top: 30px;
+             
+
+         }
+         
+         #button1{/*Google Search Button*/
+             position:relative;
+             left: 45%;
+             right: 45%;
+             margin-bottom: 20%;
+             font-size: 13;
+             
+         }
+        
+         #button2{/*I'm feeling lucky button*/
+            position:relative;
+             left: 45%;
+             right: 50%; 
+             font-size: 13;
+            margin-left: 5px;
+             bottom:20%; 
+         }
+
+         #sign-in-button{
+             background-color: rgb(15, 156, 250);
+             color: white;
+             padding: 5px;
+
+         }
+
+         #grid{
+            margin-bottom: -5px;
+         }
+        
+     </style>
+</head> 
+<div id="page-container">
+    <body>
+
+    <div>
+        <ul>
+            <li class="linkSpace"><a href="About.asp">About<a></li>
+            <li class="linkSpace"><a href="Store.asp">Store</a></li>
+            <li class="linkSpace" id="gmail_link"><a href="Gmail.asp">Gmail</a></li>
+            <li class="linkSpace"><a href="Images.asp">Images</a></li>
+            <li class="linkSPace"><a href="apps.asp"><img id="grid" src="grid.jpg" alt="grid"></a></li>
+            <button id="sign-in-button" type="button">Sign In</button>
+        </ul>
+    </div>
+        
+      <img  id="image" src = "googlelogo_color_272x92dp.png" alt="Google Logo">
+      <input id="search_bar" type="text" minlength="1" size="50">
+      <button id="button1">Google Search</button>
+      <button id="button2">I'm feeling lucky</button>
+    <div>
+        <footer>
+            <li class="linkSpace"><a href="Advertising.asp" id="a">Advertising</a></li>
+            <li class="linkSpace"><a href="Business.asp" id="a">Business</a></li>
+            <li class="linkSpace"><a href="How Search Works.asp"id="a">How Search Works</a></li>
+            <li class="linkSpace" id="privacy-link"><a href="Privacy" id="a">Privacy</a></li>
+            <li class="linkSPace" ><a href="Terms.asp" id="a">Terms</a></li>
+            <li class="linkSPace" ><a href="Settings.asp" id="a">Settings</a></li>
+      </footer>
+    </div>
+     
+        
+    
+    </body>
+</div>
+</html>
